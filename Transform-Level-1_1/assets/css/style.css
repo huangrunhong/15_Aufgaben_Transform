@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  background-color: orangered;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-left: 120px;
+  margin-top: 120px;
+}
+
+div:hover {
+  transform: scale(1.5) rotate(90deg);
+
+  transform-origin: left bottom;
+  transition: transform 2s;
+}
